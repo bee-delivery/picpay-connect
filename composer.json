@@ -1,0 +1,22 @@
+{
+    "name": "bee-delivery/picpay-connect",
+    "description": "Integração rápida e fácil com o Pic Pay, em PHP",
+    "authors": [
+        {
+            "name": "Bee delivery",
+            "email": "suporte@beedelivery.com.br",
+            "homepage": "https://www.beedelivery.com.br"
+        }
+    ],
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeeDelivery\\PicPayConnect\\": "src/"
+        }
+    }
+}
